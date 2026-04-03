@@ -14,7 +14,7 @@ const App = () => {
         console.log(data)
       }
     })
-    .catch((err) => console.error(err))
+    .catch((err) => console.error(err))  
 
     return () => {
       run = false;
